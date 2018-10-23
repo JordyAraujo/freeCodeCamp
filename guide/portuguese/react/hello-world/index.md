@@ -1,13 +1,14 @@
 ---
 title: Hello World
 localeTitle: Olá Mundo
----## Olá Mundo !!
+---
+## Olá Mundo !!
 
-Cada aprendizagem de línguas começa com o exemplo do Hello World Tradicional. Aqui, você é apresentado ao React com o mesmo programa HelloWorld.
+Cada estudo de linguagem começa com o exemplo do Hello World tradicional. Aqui, você é apresentado ao React com o mesmo programa HelloWorld.
 
 Tudo no React é um componente.
 
-Mas antes disso, precisamos ter o node.js e o npm instalados no computador. Opcionalmente, podemos usar o CRA (Create React App), que é uma ferramenta criada por desenvolvedores do Facebook para ajudá-lo a criar aplicativos React. Isso evita configurações e configurações demoradas. Basta executar um comando e criar o aplicativo reagir configura as ferramentas necessárias para iniciar seu projeto React.
+Mas antes disso, precisamos ter o node.js e o npm instalados no computador. Opcionalmente, podemos usar o CRA (Create React App), que é uma ferramenta criada por desenvolvedores do Facebook para ajudá-lo a criar aplicativos React. Isso evita configurações demoradas. Basta executar um comando e o create-react-app configura as ferramentas necessárias para iniciar seu projeto React.
 
 Podemos instalá-lo através dos seguintes comandos
 ```
@@ -19,7 +20,7 @@ npm install -g create-react-app
  npm start 
 ```
 
-A linha de comando deve fornecer uma saída onde você pode encontrar o aplicativo no navegador. O padrão deve ser localhost: 8080. Se você estiver usando apenas o IE ou o Edge em sua máquina Windows, recomendo que você instale o Chrome também para acessar o ambiente de desenvolvedor e as Ferramentas do desenvolvedor do React, que estão disponíveis como extensão do Chrome.
+A linha de comando deve fornecer uma saída onde você pode encontrar o aplicativo no navegador. O padrão deve ser localhost: 8000. Se você estiver usando apenas o IE ou o Edge em sua máquina Windows, recomendo que você instale o Chrome também para acessar o ambiente de desenvolvedor e as Ferramentas do desenvolvedor do React, que estão disponíveis como extensão do Chrome.
 
 ![alt reagir página inicial](https://cdn-images-1.medium.com/max/800/1*Qcry5pCXIy2KeNRsq3w7Bg.png)
 
@@ -62,6 +63,6 @@ Se verificarmos o arquivo index.js na pasta src, descobrimos que o App.js acima 
 
 Acima, App.js é chamado de componente. Normalmente, fazemos vários componentes e os reunimos em App.js, que serão então renderizados em index.js, que é então renderizado no div raiz que está no index.html.
 
-Parabéns !! Você criou seu primeiro aplicativo React Hello world. Você aprende mais sobre o Reagir nos próximos artigos.
+Parabéns !! Você criou seu primeiro aplicativo React Hello world. Você aprende mais sobre o React nos próximos artigos.
 
 Codificação Feliz !!
